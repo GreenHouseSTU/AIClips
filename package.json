@@ -4,7 +4,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "node --loader ts-node/esm --no-warnings=ExperimentalWarning src/server.ts",
+    "dev": "PORT=8080 node --loader ts-node/esm --no-warnings=ExperimentalWarning src/server.ts",
+    "dev:server": "PORT=8080 node --loader ts-node/esm --no-warnings=ExperimentalWarning src/server.ts",
     "start": "node dist/server.js",
     "build": "tsc -p tsconfig.json",
     "check": "tsc --noEmit"
