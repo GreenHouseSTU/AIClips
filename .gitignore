@@ -8,5 +8,6 @@ pnpm-debug.log*
 dist
 .tmp
 .env
+.next
 *.part
 *.part-Frag*
